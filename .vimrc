@@ -11,9 +11,11 @@ Plug 'kien/ctrlp.vim'
 Plug 'maralla/completor.vim'
 " Javascript syntax
 Plug 'pangloss/vim-javascript'
+" Automatic closing of brackets / quotes
+Plug 'raimondi/delimitmate'
 
 " Initialize plugin system
 call plug#end()
 
 " Key bindings
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeFind<CR>
