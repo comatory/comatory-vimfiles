@@ -23,17 +23,16 @@ For Windows it is recommended to use `cygwin`.
 
 ## Installation
 
-Clone the repo and keep it on the disk if you want to update the settings in the future.
-
-To install everything, run `./install.sh` from the repo. You might need to set up permissions first with:
-
+1. Clone the repo and keep it on the disk if you want to update the settings in the future.
+2. To install everything, run `./install.sh` from the repo. You might need to set up permissions first with:
 `chmod 755 install.sh`
-
-Open vim and run `:PluginInstall`, restart vim and all plugins should be available.
+3. Open vim and run `vim-plug` installation with `:PlugInstall` command. You might need to restart Vim to have
+all the commands available.
 
 ## Updating
 
-Navigate to repo and pull the master branch. Run `./install.sh` script again to update.
+Navigate to repo and pull the master branch. Run `./install.sh` script again to update. Make sure to run & update
+all plugins with `:PlugInstall` command after each update to have everything in sync.
 
 ## Keyboard bindings
 
